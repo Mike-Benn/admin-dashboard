@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-row: 1 / 2;
+    display: grid;
+    gap: 30px;  
+    
+}
+
+.sidebar > div {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.sidebar .navigation , .sidebar .logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
